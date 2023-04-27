@@ -1,4 +1,4 @@
-# Individual School Exam
+# Individual School Exam React
 This is a project that i made as my last individual exam in React.
 
 # Technical Requirements Used
