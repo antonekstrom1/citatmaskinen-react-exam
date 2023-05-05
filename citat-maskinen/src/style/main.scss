@@ -1,0 +1,36 @@
+/* MAIN SCSS CODE BELOW */
+
+@import "./quoteCard";
+@import "./variables";
+@import "./error";
+@import "./form";
+
+body {
+  background-color: #ADD8E6;
+  background-size: contain;
+}
+
+article {
+  padding: $default;
+  max-width: 50rem;
+  width: 100%;
+  margin: auto;
+  background-color: $bgColorBody;
+  box-shadow: $shadow;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  padding: $small
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 35rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* FOOTER SCSS CODE ABOVE */

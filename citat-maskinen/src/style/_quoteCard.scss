@@ -1,0 +1,68 @@
+/* QUOTECARD SCSS CODE BELOW */
+
+@import "./variables";
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 20rem;
+  margin: $large auto
+}
+
+.quote-card {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hero .quote-card a, .more-container .quote-card a {
+  display: none;
+}
+
+.hero .quote-card {
+  padding: $xlarge 0;
+  h3 {
+    font-weight: 400;
+    font-size: $xlarge;
+    text-align: center;
+  }
+  p {
+    font-size: $default;
+    text-align: center;
+  }
+}
+
+.container .quote-card {
+  @include box;
+  margin: $medium;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 70%;
+  }
+  h3 {
+    font-size: $default;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    line-height: 19px;
+  }
+  p {
+    font-weight: 400;
+    font-size: $small;
+    line-height: 15px;
+    padding-top: 0;
+  }
+}
+
+.remove-quote {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: $default;
+}
+
+/* QUOTECARD SCSS CODE ABOVE */

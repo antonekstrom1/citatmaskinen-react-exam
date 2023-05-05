@@ -1,0 +1,20 @@
+/* VARIABLES SCSS CODE BELOW */
+
+$bgColorBody: #95bbc7;
+$shadow: 2px 2px 4px rgba(0, 0, 0, 0.50);
+$bgColor: #88bacb;
+
+$default: 1.7rem;
+$small: .80rem;
+$medium: 1.5rem;
+$large: 1.5rem;
+$xlarge: 1rem;
+
+@mixin box {
+  box-shadow: $shadow;
+  font-size: $default;
+  padding: $default;
+  background-color: $bgColor;
+}
+
+/* VARIABLES SCSS CODE ABOVE */

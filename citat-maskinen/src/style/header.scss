@@ -1,0 +1,14 @@
+/* HEADER SCSS CODE BELOW */
+
+@import "./variables";
+
+header {
+  @include box; 
+  background-color: $bgColor;
+  opacity: .5;
+  margin-bottom: $default;
+  font-size: $large;
+  text-align: center;
+}
+
+/* FOOTER SCSS CODE ABOVE */

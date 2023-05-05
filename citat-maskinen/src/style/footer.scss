@@ -1,0 +1,17 @@
+/* FOOTER SCSS CODE BELOW */
+
+@import "./variables";
+
+footer {
+  background-color: $bgColor;
+  opacity: .5;
+  font-size: $medium;
+  text-align: center;
+  padding: $xlarge;
+  margin-top: $default;
+  p:not(:first-child) {
+    padding: 0;
+  }
+}
+
+/* FOOTER SCSS CODE ABOVE */
