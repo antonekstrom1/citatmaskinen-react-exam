@@ -8,8 +8,8 @@ export default function QuoteCard({quote, index }) {
     <section className='quote-card'>
       {quote ? <section><h3>{quote.text}</h3><p>{quote.author}</p></section> : <p></p>}
       <section>
-        {quote && <Link to={`/edit/${quote.id}`}></Link>}
-        {quote && <Link to={`/remove/${quote.id}`}></Link>}
+        {quote && <Link to={`/edit/${quote.id}`}>ÄNDRA</Link>}
+        {quote && <Link to={`/remove/${quote.id}`}>TA BORT</Link>}
       </section>
     </section>
   )
